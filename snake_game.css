@@ -1,0 +1,94 @@
+
+body {
+        background: rgb(179, 214, 235);
+      }
+
+.grid {
+        width: 200px;
+        height: 200px;
+        border: 1px solid red;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .grid div {
+        width: 20px;
+        height: 20px;
+      }
+
+      .snake {
+        background: blue;
+      }
+
+      .apple {
+        background: yellow;
+        border-radius: 20px;
+      }
+
+      .popup {
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        top: 100px;
+        left: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: 800px;
+        margin-top: 80px;
+      }
+
+     .control{
+
+            margin-left: 815px;
+            margin-top: 10px;
+          
+
+      }
+      
+.snake{
+  border-radius: 8px;
+}
+
+.title_name{
+  margin-left: 800px;
+}
+.scoreDisplay::before{
+
+    font-weight: bold;
+    color:black;
+    content: "Score : ";
+}
+
+.scoreDisplay{
+      
+      font-size: 20px;
+      margin-left: 880px;
+}
+
+.top{
+      border-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.bottom{
+      border-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.left{
+
+      border-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.right{
+      border-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+}
